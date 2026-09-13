@@ -384,3 +384,15 @@ $ cargo +stable build --release --target x86_64-unknown-linux-musl
 [1m[92m   Compiling[0m hyper v1.11.1
 [1m[92m   Compiling[0m regex-automata v0.4.18
 [1m[92m   Compiling[0m prost v0.13.5
+[1m[92m   Compiling[0m icu_normalizer v2.3.0
+[1m[92m   Compiling[0m icu_properties v2.3.0
+[1m[92m   Compiling[0m thiserror v2.0.20
+[1m[92m   Compiling[0m autocfg v1.5.1
+[1m[92m   Compiling[0m rustversion v1.0.23
+[1m[92m   Compiling[0m fastrand v2.5.0
+[1m[92m   Compiling[0m crc32fast v1.5.2
+[1m[92m   Compiling[0m ipnet v2.12.2
+[1m[92m   Compiling[0m fixedbitset v0.5.7
+[1m[92m   Compiling[0m petgraph v0.7.1
+[1m[92m   Compiling[0m hyper-util v0.1.20
+[1m[92m   Compiling[0m idna_adapter v1.2.2
