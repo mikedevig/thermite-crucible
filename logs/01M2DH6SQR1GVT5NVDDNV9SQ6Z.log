@@ -601,3 +601,7 @@ $ cargo +stable build --release --target aarch64-unknown-linux-musl
 
 [1m[33mwarning[0m: `exliatycl-client` (bin "exliatycl-client") generated 1 warning
 [1m[92m    Finished[0m `release` profile [optimized] target(s) in 1m 50s
+
+##thermite:linking
+Compiled clean. Casting the ingot.
+##thermite:packaged thermite-01M2DH6SQR1GVT5NVDDNV9SQ6Z.tar.gz sha256=5ac1f1bec0171758e1aa9ed67bb5dcee0564ffe363d098cad3bc0251d32b65de
