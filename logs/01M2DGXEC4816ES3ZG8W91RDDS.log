@@ -495,3 +495,6 @@ $ cargo +stable build --release --target x86_64-unknown-linux-musl
 [1m[92m   Compiling[0m serde_yaml v0.9.34+deprecated
 [1m[92m   Compiling[0m rcgen v0.13.2
 [1m[92m   Compiling[0m reqwest v0.12.28
+[1m[92m   Compiling[0m uuid v1.26.1
+[1m[92m   Compiling[0m tokio-tungstenite v0.26.2
+[1m[92m   Compiling[0m sysinfo v0.35.2
