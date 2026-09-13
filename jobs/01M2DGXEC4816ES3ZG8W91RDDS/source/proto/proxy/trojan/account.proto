@@ -1,7 +1,0 @@
-syntax = "proto3";
-package xray.proxy.trojan;
-
-// Wire-compatible stub of Xray-core's trojan.Account.
-message Account {
-  string password = 1;
-}
