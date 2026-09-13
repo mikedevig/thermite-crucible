@@ -371,3 +371,7 @@ $ cargo +stable build --release --target aarch64-unknown-linux-musl
 [1m[92m  Downloaded[0m protoc-bin-vendored-linux-x86_32 v3.2.0
 [1m[92m  Downloaded[0m protoc-bin-vendored-linux-ppcle_64 v3.2.0
 [1m[92m  Downloaded[0m protoc-bin-vendored-linux-s390_64 v3.2.0
+[1m[92m   Compiling[0m proc-macro2 v1.0.107
+[1m[92m   Compiling[0m quote v1.0.47
+[1m[92m   Compiling[0m unicode-ident v1.0.24
+[1m[92m   Compiling[0m libc v0.2.189
