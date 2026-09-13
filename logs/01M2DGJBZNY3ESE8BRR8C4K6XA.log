@@ -517,3 +517,10 @@ $ cargo +stable build --release --target x86_64-unknown-linux-musl
    [1m[94m= [0m[1mnote[0m: this error originates in the macro `include` which comes from the expansion of the macro `tonic::include_proto` (in Nightly builds, run with -Z macro-backtrace for more info)
 
 [1m[91merror[0m: could not compile `exliatycl-client` (bin "exliatycl-client") due to 1 previous error
+
+##thermite:failed:101
+Compilation failed. Exit code 101.
+
+BUILD FAILED
+
+##thermite:end:FAILED
