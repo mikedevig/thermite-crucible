@@ -472,3 +472,8 @@ $ cargo +stable build --release --target x86_64-unknown-linux-musl
 [1m[92m   Compiling[0m clap_builder v4.6.6
 [1m[92m   Compiling[0m tungstenite v0.26.2
 [1m[92m   Compiling[0m zopfli v0.8.3
+[1m[92m   Compiling[0m async-stream v0.3.6
+[1m[92m   Compiling[0m exliatycl-client v1.0.3 (/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M2DGXEC4816ES3ZG8W91RDDS/source)
+[1m[92m   Compiling[0m hyper-rustls v0.27.9
+[1m[92m   Compiling[0m tower v0.4.13
+[1m[92m   Compiling[0m matchers v0.2.0
