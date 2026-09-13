@@ -138,3 +138,5 @@ info: downloading component rust-std
   sandbox  separate unprivileged user
 
 ##thermite:compiling
+$ cargo +stable build --release --target aarch64-unknown-linux-musl
+
