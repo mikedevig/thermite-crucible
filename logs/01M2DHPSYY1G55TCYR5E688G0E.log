@@ -579,3 +579,7 @@ $ cargo +stable build --release --target armv7-unknown-linux-gnueabihf
 Compiled clean. Casting the ingot.
 ##thermite:packaged thermite-01M2DHPSYY1G55TCYR5E688G0E.tar.gz sha256=1757abf3a416f104052da5dd156fedd5d79d1b633199d6b7f26f988a92b62607
 ##thermite:ingot https://github.com/mikedevig/thermite-crucible/releases/download/pour-01M2DHPSYY1G55TCYR5E688G0E/thermite-01M2DHPSYY1G55TCYR5E688G0E.tar.gz
+
+BUILD SUCCESS
+
+##thermite:end:SUCCESS
