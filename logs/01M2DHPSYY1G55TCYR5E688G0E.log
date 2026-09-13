@@ -574,3 +574,7 @@ $ cargo +stable build --release --target armv7-unknown-linux-gnueabihf
 
 [1m[33mwarning[0m: `exliatycl-client` (bin "exliatycl-client") generated 1 warning
 [1m[92m    Finished[0m `release` profile [optimized] target(s) in 2m 01s
+
+##thermite:linking
+Compiled clean. Casting the ingot.
+##thermite:packaged thermite-01M2DHPSYY1G55TCYR5E688G0E.tar.gz sha256=1757abf3a416f104052da5dd156fedd5d79d1b633199d6b7f26f988a92b62607
