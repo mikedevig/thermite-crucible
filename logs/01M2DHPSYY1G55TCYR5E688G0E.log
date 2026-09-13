@@ -538,3 +538,11 @@ $ cargo +stable build --release --target armv7-unknown-linux-gnueabihf
 [1m[92m   Compiling[0m exliatycl-client v1.0.3 (/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M2DHPSYY1G55TCYR5E688G0E/source)
 [1m[92m   Compiling[0m async-stream v0.3.6
 [1m[92m   Compiling[0m tower v0.4.13
+[1m[92m   Compiling[0m matchers v0.2.0
+[1m[92m   Compiling[0m yasna v0.5.2
+[1m[92m   Compiling[0m flate2 v1.1.10
+[1m[92m   Compiling[0m serde_urlencoded v0.7.1
+[1m[92m   Compiling[0m hyper-timeout v0.5.2
+[1m[92m   Compiling[0m clap_derive v4.6.4
+[1m[92m   Compiling[0m tracing-log v0.2.0
+[1m[92m   Compiling[0m pem v3.0.6
