@@ -508,3 +508,12 @@ $ cargo +stable build --release --target x86_64-unknown-linux-musl
 [1m[92m   Compiling[0m uuid v1.26.1
 [1m[92m   Compiling[0m tokio-tungstenite v0.26.2
 [1m[92m   Compiling[0m sysinfo v0.35.2
+[1m[91merror[0m[1m: couldn't read `/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M2DGJBZNY3ESE8BRR8C4K6XA/source/target/x86_64-unknown-linux-musl/release/build/exliatycl-client-c97a39ed70479fda/out/xray.common.protocol.rs`: No such file or directory (os error 2)[0m
+  [1m[94m--> [0msrc/core/xray_api.rs:24:9
+   [1m[94m|[0m
+[1m[94m24[0m [1m[94m|[0m         tonic::include_proto!("xray.common.protocol");
+   [1m[94m|[0m         [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+   [1m[94m|[0m
+   [1m[94m= [0m[1mnote[0m: this error originates in the macro `include` which comes from the expansion of the macro `tonic::include_proto` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+[1m[91merror[0m: could not compile `exliatycl-client` (bin "exliatycl-client") due to 1 previous error
