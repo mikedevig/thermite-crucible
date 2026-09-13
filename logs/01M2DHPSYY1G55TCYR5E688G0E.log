@@ -445,3 +445,9 @@ $ cargo +stable build --release --target armv7-unknown-linux-gnueabihf
 [1m[92m   Compiling[0m bitflags v2.13.2
 [1m[92m   Compiling[0m regex-automata v0.4.18
 [1m[92m   Compiling[0m prost v0.13.5
+[1m[92m   Compiling[0m hyper v1.11.1
+[1m[92m   Compiling[0m icu_normalizer v2.3.0
+[1m[92m   Compiling[0m icu_properties v2.3.0
+[1m[92m   Compiling[0m rustversion v1.0.23
+[1m[92m   Compiling[0m fixedbitset v0.5.7
+[1m[92m   Compiling[0m ipnet v2.12.2
