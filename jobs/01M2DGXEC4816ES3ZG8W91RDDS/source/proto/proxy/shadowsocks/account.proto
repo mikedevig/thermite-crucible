@@ -1,0 +1,16 @@
+syntax = "proto3";
+package xray.proxy.shadowsocks;
+
+// Wire-compatible stub of Xray-core's shadowsocks.Account (fields we set only).
+message Account {
+  string password = 1;
+  CipherType cipher_type = 2;
+}
+
+enum CipherType {
+  UNKNOWN = 0;
+  AES_128_GCM = 5;
+  AES_256_GCM = 6;
+  CHACHA20_POLY1305 = 7;
+  XCHACHA20_POLY1305 = 8;
+}
