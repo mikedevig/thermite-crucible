@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "id": "01M2DHPSYY1G55TCYR5E688G0E",
+  "toolchain": "stable",
+  "target": "armv7-unknown-linux-gnueabihf",
+  "projectType": "cargo",
+  "name": "exliatycl-client",
+  "entry": "source/Cargo.toml",
+  "submittedAt": "2026-09-13T14:11:00.559Z",
+  "client": "thermite-web/1.0.0",
+  "files": 31,
+  "bytes": 168226,
+  "treeHash": "sha256:18997fc13eaf530c80b1254ce23dfe450d7460788cf2ec4b1cb01d52d717aab4",
+  "cleanup": {
+    "policy": "onReturn",
+    "onFailure": "keep"
+  }
+}

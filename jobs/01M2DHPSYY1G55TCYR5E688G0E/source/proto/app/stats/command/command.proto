@@ -1,0 +1,36 @@
+syntax = "proto3";
+package xray.app.stats.command;
+
+// Trimmed, wire-compatible stub of Xray-core's StatsService. We only call
+// GetUsersStats (per-user traffic + online IPs in one shot, with reset=true
+// so each poll returns the delta since the last poll -- matches the
+// control server's additive `recordUserTraffic` accounting).
+
+message OnlineIPEntry {
+  string ip = 1;
+  int64 last_seen = 2;
+}
+
+message TrafficUserStat {
+  int64 uplink = 1;
+  int64 downlink = 2;
+}
+
+message UserStat {
+  string email = 1;
+  repeated OnlineIPEntry ips = 2;
+  TrafficUserStat traffic = 3;
+}
+
+message GetUsersStatsRequest {
+  bool include_traffic = 1;
+  bool reset = 2;
+}
+
+message GetUsersStatsResponse {
+  repeated UserStat users = 1;
+}
+
+service StatsService {
+  rpc GetUsersStats(GetUsersStatsRequest) returns (GetUsersStatsResponse) {}
+}
