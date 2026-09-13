@@ -1,9 +1,0 @@
-syntax = "proto3";
-package xray.common.serial;
-
-// Minimal, wire-compatible stub of Xray-core's TypedMessage.
-// Only the fields we actually populate are declared.
-message TypedMessage {
-  string type = 1;
-  bytes value = 2;
-}

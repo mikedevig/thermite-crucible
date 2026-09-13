@@ -1,7 +1,0 @@
-syntax = "proto3";
-package xray.proxy.vmess;
-
-// Minimal, wire-compatible stub of Xray-core's vmess.Account (fields we set only).
-message Account {
-  string id = 1;
-}
