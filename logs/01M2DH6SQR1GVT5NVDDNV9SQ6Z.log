@@ -375,3 +375,4 @@ $ cargo +stable build --release --target aarch64-unknown-linux-musl
 [1m[92m   Compiling[0m quote v1.0.47
 [1m[92m   Compiling[0m unicode-ident v1.0.24
 [1m[92m   Compiling[0m libc v0.2.189
+[1m[92m   Compiling[0m cfg-if v1.0.4
