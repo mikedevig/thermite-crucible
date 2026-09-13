@@ -583,3 +583,4 @@ $ cargo +stable build --release --target aarch64-unknown-linux-musl
 [1m[92m   Compiling[0m tracing-subscriber v0.3.23
 [1m[92m   Compiling[0m serde_yaml v0.9.34+deprecated
 [1m[92m   Compiling[0m rcgen v0.13.2
+[1m[92m   Compiling[0m reqwest v0.12.28
