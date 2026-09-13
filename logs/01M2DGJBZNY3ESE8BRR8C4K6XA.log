@@ -502,3 +502,5 @@ $ cargo +stable build --release --target x86_64-unknown-linux-musl
 [1m[92m   Compiling[0m clap v4.6.6
 [1m[92m   Compiling[0m tonic v0.12.3
 [1m[92m   Compiling[0m tracing-subscriber v0.3.23
+[1m[92m   Compiling[0m serde_yaml v0.9.34+deprecated
+[1m[92m   Compiling[0m rcgen v0.13.2
