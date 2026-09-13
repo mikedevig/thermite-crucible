@@ -527,3 +527,11 @@ $ cargo +stable build --release --target aarch64-unknown-linux-musl
 [1m[92m   Compiling[0m protoc-bin-vendored-linux-x86_32 v3.2.0
 [1m[92m   Compiling[0m anstyle v1.0.14
 [1m[92m   Compiling[0m adler2 v2.0.1
+[1m[92m   Compiling[0m protoc-bin-vendored-linux-aarch_64 v3.2.0
+[1m[92m   Compiling[0m protoc-bin-vendored-win32 v3.2.0
+[1m[92m   Compiling[0m mime v0.3.17
+[1m[92m   Compiling[0m time-core v0.1.9
+[1m[92m   Compiling[0m ryu v1.0.23
+[1m[92m   Compiling[0m time v0.3.55
+[1m[92m   Compiling[0m axum-core v0.4.5
+[1m[92m   Compiling[0m protoc-bin-vendored v3.2.0
