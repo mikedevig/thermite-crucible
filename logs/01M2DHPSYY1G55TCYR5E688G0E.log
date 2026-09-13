@@ -555,3 +555,4 @@ $ cargo +stable build --release --target armv7-unknown-linux-gnueabihf
 [1m[92m   Compiling[0m clap v4.6.6
 [1m[92m   Compiling[0m tonic v0.12.3
 [1m[92m   Compiling[0m serde_yaml v0.9.34+deprecated
+[1m[92m   Compiling[0m rcgen v0.13.2
