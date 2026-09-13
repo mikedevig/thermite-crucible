@@ -378,3 +378,12 @@ $ cargo +stable build --release --target aarch64-unknown-linux-musl
 [1m[92m   Compiling[0m cfg-if v1.0.4
 [1m[92m   Compiling[0m pin-project-lite v0.2.17
 [1m[92m   Compiling[0m bytes v1.12.1
+[1m[92m   Compiling[0m futures-core v0.3.34
+[1m[92m   Compiling[0m itoa v1.0.18
+[1m[92m   Compiling[0m once_cell v1.21.4
+[1m[92m   Compiling[0m futures-sink v0.3.34
+[1m[92m   Compiling[0m stable_deref_trait v1.2.1
+[1m[92m   Compiling[0m http v1.5.0
+[1m[92m   Compiling[0m slab v0.4.12
+[1m[92m   Compiling[0m shlex v2.0.1
+[1m[92m   Compiling[0m find-msvc-tools v0.1.12
