@@ -517,3 +517,7 @@ $ cargo +stable build --release --target x86_64-unknown-linux-musl
 Compiled clean. Casting the ingot.
 ##thermite:packaged thermite-01M2DGXEC4816ES3ZG8W91RDDS.tar.gz sha256=ef47687f881b9941d743bf134e1181171d8bf3781f186927239b20c261cb1a43
 ##thermite:ingot https://github.com/mikedevig/thermite-crucible/releases/download/pour-01M2DGXEC4816ES3ZG8W91RDDS/thermite-01M2DGXEC4816ES3ZG8W91RDDS.tar.gz
+
+BUILD SUCCESS
+
+##thermite:end:SUCCESS
