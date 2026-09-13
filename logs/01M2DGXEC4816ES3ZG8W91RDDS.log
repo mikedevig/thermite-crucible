@@ -337,3 +337,11 @@ $ cargo +stable build --release --target x86_64-unknown-linux-musl
 [1m[92m   Compiling[0m equivalent v1.0.2
 [1m[92m   Compiling[0m itertools v0.14.0
 [1m[92m   Compiling[0m indexmap v2.14.2
+[1m[92m   Compiling[0m tracing v0.1.44
+[1m[92m   Compiling[0m tinystr v0.8.4
+[1m[92m   Compiling[0m serde_core v1.0.229
+[1m[92m   Compiling[0m version_check v0.9.5
+[1m[92m   Compiling[0m untrusted v0.9.0
+[1m[92m   Compiling[0m litemap v0.8.3
+[1m[92m   Compiling[0m writeable v0.6.4
+[1m[92m   Compiling[0m icu_locale_core v2.3.0
