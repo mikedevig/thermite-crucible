@@ -135,3 +135,6 @@ info: downloading component rust-std
   runner Linux/X64
 ##thermite:toolchain-ready
   cross linker aarch64-linux-gnu-gcc
+  sandbox  separate unprivileged user
+
+##thermite:compiling
