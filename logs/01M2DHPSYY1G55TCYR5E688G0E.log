@@ -107,3 +107,8 @@ info: downloading component rust-std
   runner Linux/X64
 ##thermite:toolchain-ready
   cross linker arm-linux-gnueabihf-gcc
+  sandbox  separate unprivileged user
+
+##thermite:compiling
+$ cargo +stable build --release --target armv7-unknown-linux-gnueabihf
+
