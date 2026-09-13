@@ -504,3 +504,9 @@ $ cargo +stable build --release --target armv7-unknown-linux-gnueabihf
 [1m[92m   Compiling[0m protoc-bin-vendored-win32 v3.2.0
 [1m[92m   Compiling[0m adler2 v2.0.1
 [1m[92m   Compiling[0m crossbeam-utils v0.8.23
+[1m[92m   Compiling[0m protoc-bin-vendored-linux-x86_64 v3.2.0
+[1m[92m   Compiling[0m protoc-bin-vendored v3.2.0
+[1m[92m   Compiling[0m miniz_oxide v0.9.1
+[1m[92m   Compiling[0m time v0.3.55
+[1m[92m   Compiling[0m anstream v1.0.0
+[1m[92m   Compiling[0m axum-core v0.4.5
