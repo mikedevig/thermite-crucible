@@ -529,3 +529,6 @@ $ cargo +stable build --release --target armv7-unknown-linux-gnueabihf
 [1m[92m   Compiling[0m matchit v0.7.3
 [1m[92m   Compiling[0m tower-http v0.6.11
 [1m[92m   Compiling[0m axum v0.7.9
+[1m[92m   Compiling[0m clap_builder v4.6.6
+[1m[92m   Compiling[0m tungstenite v0.26.2
+[1m[92m   Compiling[0m zopfli v0.8.3
