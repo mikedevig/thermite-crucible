@@ -396,3 +396,8 @@ $ cargo +stable build --release --target armv7-unknown-linux-gnueabihf
 [1m[92m   Compiling[0m percent-encoding v2.3.2
 [1m[92m   Compiling[0m equivalent v1.0.2
 [1m[92m   Compiling[0m hashbrown v0.17.1
+[1m[92m   Compiling[0m tower-service v0.3.3
+[1m[92m   Compiling[0m indexmap v2.14.2
+[1m[92m   Compiling[0m tracing v0.1.44
+[1m[92m   Compiling[0m tinystr v0.8.4
+[1m[92m   Compiling[0m itertools v0.14.0
