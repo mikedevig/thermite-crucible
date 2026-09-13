@@ -606,3 +606,7 @@ $ cargo +stable build --release --target aarch64-unknown-linux-musl
 Compiled clean. Casting the ingot.
 ##thermite:packaged thermite-01M2DH6SQR1GVT5NVDDNV9SQ6Z.tar.gz sha256=5ac1f1bec0171758e1aa9ed67bb5dcee0564ffe363d098cad3bc0251d32b65de
 ##thermite:ingot https://github.com/mikedevig/thermite-crucible/releases/download/pour-01M2DH6SQR1GVT5NVDDNV9SQ6Z/thermite-01M2DH6SQR1GVT5NVDDNV9SQ6Z.tar.gz
+
+BUILD SUCCESS
+
+##thermite:end:SUCCESS
