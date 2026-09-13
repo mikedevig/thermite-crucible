@@ -1,0 +1,8 @@
+THERMITE // pour 01M2DGJBZNY3ESE8BRR8C4K6XA
+commit  a57028569538f79302fbe5f8b0b1e50ed9660b53
+run     34761001139
+target  x86_64-unknown-linux-musl
+rust    stable
+runner  Linux/X64
+
+$ apt-get install -y musl-tools
