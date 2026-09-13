@@ -1,0 +1,7 @@
+THERMITE // pour 01M2DGXEC4816ES3ZG8W91RDDS
+commit  b9a2ac6cb7fd5f18d409a56a73e8a74727e6a336
+run     34761271075
+target  x86_64-unknown-linux-musl
+rust    stable
+runner  Linux/X64
+
