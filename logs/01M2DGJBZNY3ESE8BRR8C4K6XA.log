@@ -356,3 +356,9 @@ $ cargo +stable build --release --target x86_64-unknown-linux-musl
 [1m[92m   Compiling[0m serde_core v1.0.229
 [1m[92m   Compiling[0m generic-array v0.14.7
 [1m[92m   Compiling[0m icu_locale_core v2.3.0
+[1m[92m   Compiling[0m prost-derive v0.13.5
+[1m[92m   Compiling[0m ppv-lite86 v0.2.21
+[1m[92m   Compiling[0m tokio-util v0.7.19
+[1m[92m   Compiling[0m potential_utf v0.1.6
+[1m[92m   Compiling[0m zerotrie v0.2.5
+[1m[92m   Compiling[0m icu_normalizer_data v2.3.0
