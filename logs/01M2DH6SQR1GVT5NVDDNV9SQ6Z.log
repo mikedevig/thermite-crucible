@@ -424,3 +424,7 @@ $ cargo +stable build --release --target aarch64-unknown-linux-musl
 [1m[92m   Compiling[0m futures-util v0.3.34
 [1m[92m   Compiling[0m zerovec v0.11.8
 [1m[92m   Compiling[0m tracing-attributes v0.1.31
+[1m[92m   Compiling[0m tracing v0.1.44
+[1m[92m   Compiling[0m tinystr v0.8.4
+[1m[92m   Compiling[0m indexmap v2.14.2
+[1m[92m   Compiling[0m itertools v0.14.0
