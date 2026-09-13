@@ -532,3 +532,9 @@ $ cargo +stable build --release --target armv7-unknown-linux-gnueabihf
 [1m[92m   Compiling[0m clap_builder v4.6.6
 [1m[92m   Compiling[0m tungstenite v0.26.2
 [1m[92m   Compiling[0m zopfli v0.8.3
+[1m[92m   Compiling[0m rustls-native-certs v0.8.4
+[1m[92m   Compiling[0m sharded-slab v0.1.7
+[1m[92m   Compiling[0m hyper-rustls v0.27.9
+[1m[92m   Compiling[0m exliatycl-client v1.0.3 (/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M2DHPSYY1G55TCYR5E688G0E/source)
+[1m[92m   Compiling[0m async-stream v0.3.6
+[1m[92m   Compiling[0m tower v0.4.13
