@@ -437,3 +437,14 @@ $ cargo +stable build --release --target aarch64-unknown-linux-musl
 [1m[92m   Compiling[0m tokio-util v0.7.19
 [1m[92m   Compiling[0m icu_locale_core v2.3.0
 [1m[92m   Compiling[0m ppv-lite86 v0.2.21
+[1m[92m   Compiling[0m prost-derive v0.13.5
+[1m[92m   Compiling[0m potential_utf v0.1.6
+[1m[92m   Compiling[0m zerotrie v0.2.5
+[1m[92m   Compiling[0m icu_normalizer_data v2.3.0
+[1m[92m   Compiling[0m utf8_iter v1.0.4
+[1m[92m   Compiling[0m icu_properties_data v2.3.0
+[1m[92m   Compiling[0m icu_collections v2.3.0
+[1m[92m   Compiling[0m icu_provider v2.3.1
+[1m[92m   Compiling[0m log v0.4.34
+[1m[92m   Compiling[0m typenum v1.20.1
+[1m[92m   Compiling[0m base64 v0.22.1
