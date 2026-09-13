@@ -1,0 +1,18 @@
+{
+  "job": "01M2DH6SQR1GVT5NVDDNV9SQ6Z",
+  "phase": "INGEST",
+  "live": true,
+  "startedAt": "2026-09-13T14:02:46.129Z",
+  "updatedAt": "2026-09-13T14:02:47.626Z",
+  "bytes": 182,
+  "lines": 7,
+  "lineRate": 7,
+  "runner": "Linux/X64",
+  "sealed": false,
+  "runId": "34761512453",
+  "sha": "f1e5dec93810d6fde5d9ff27da60c6c683936ad0",
+  "rustc": null,
+  "cargo": null,
+  "target": "aarch64-unknown-linux-musl",
+  "toolchain": "stable"
+}
