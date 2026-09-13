@@ -5,3 +5,4 @@ target  aarch64-unknown-linux-musl
 rust    stable
 runner  Linux/X64
 
+$ apt-get install -y gcc-aarch64-linux-gnu musl-tools
