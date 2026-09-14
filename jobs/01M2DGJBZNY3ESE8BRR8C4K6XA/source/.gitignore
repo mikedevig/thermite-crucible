@@ -1,7 +1,0 @@
-/target/
-**/*.rs.bk
-.idea/
-.vscode/
-*.pdb
-.env
-/wagond/
