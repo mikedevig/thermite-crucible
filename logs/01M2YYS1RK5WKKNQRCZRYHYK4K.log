@@ -6,3 +6,5 @@ rust    stable
 runner  Linux/X64
 
 $ apt-get install -y musl-tools
+Selecting previously unselected package musl:amd64.
+(Reading database ... 
