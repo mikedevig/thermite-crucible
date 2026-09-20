@@ -1,0 +1,7 @@
+THERMITE // pour 01M2YZ2FC5PN2SBD27A234TT81
+commit  292f544cf3dabe7cd5247a126e65a214fbbcf3d0
+run     35499808823
+target  x86_64-unknown-linux-musl
+rust    stable
+runner  Linux/X64
+
