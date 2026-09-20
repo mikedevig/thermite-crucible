@@ -201,3 +201,43 @@ $ cargo +stable build --release --target x86_64-unknown-linux-musl
 [1m[94m169[0m [1m[94m|[0m         flags: WmSizeHintsFlags::P_MIN_SIZE | WmSizeHintsFlags::P_MAX_SIZE,
     [1m[94m|[0m                                               [1m[91m^^^^^^^^^^^^^^^^[0m [1m[91muse of undeclared type `WmSizeHintsFlags`[0m
 
+[1m[91merror[E0308][0m[1m: mismatched types[0m
+    [1m[94m--> [0msrc/ui/linux.rs:368:60
+     [1m[94m|[0m
+[1m[94m 368[0m [1m[94m|[0m                 self.conn.set_selection_owner(self.window, AtomEnum::PRIMARY, x11rb::CURRENT_TIME)?;
+     [1m[94m|[0m                           [1m[94m-------------------[0m              [1m[91m^^^^^^^^^^^^^^^^^[0m [1m[91mexpected `u32`, found `AtomEnum`[0m
+     [1m[94m|[0m                           [1m[94m|[0m
+     [1m[94m|[0m                           [1m[94marguments to this method are incorrect[0m
+     [1m[94m|[0m
+[1m[92mnote[0m: method defined here
+    [1m[94m--> [0m/home/pourer/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/x11rb-0.13.2/src/protocol/xproto.rs:4052:8
+     [1m[94m|[0m
+[1m[94m4052[0m [1m[94m|[0m     fn set_selection_owner<A, B>(&self, owner: A, selection: Atom, time: B) -> Result<VoidCookie<'_, Self>, ConnectionError>
+     [1m[94m|[0m        [1m[92m^^^^^^^^^^^^^^^^^^^[0m
+[1m[96mhelp[0m: call `Into::into` on this expression to convert `x11rb::protocol::xproto::AtomEnum` into `u32`
+     [1m[94m|[0m
+[1m[94m 368[0m [1m[94m| [0m                self.conn.set_selection_owner(self.window, AtomEnum::PRIMARY[92m.into()[0m, x11rb::CURRENT_TIME)?;
+     [1m[94m|[0m                                                                             [92m+++++++[0m
+
+[1m[91merror[E0502][0m[1m: cannot borrow `*self` as mutable because it is also borrowed as immutable[0m
+   [1m[94m--> [0msrc/ui/linux.rs:711:9
+    [1m[94m|[0m
+[1m[94m676[0m [1m[94m|[0m         let snap = match self.last_snapshot.as_ref() { Some(s) => s, None => return Ok(()) };
+    [1m[94m|[0m                          [1m[94m------------------[0m [1m[94mimmutable borrow occurs here[0m
+[1m[94m...[0m
+[1m[94m711[0m [1m[94m|[0m         self.put_image_rgb(self.maze_pix, BUF_W, BUF_H, &buf)?;
+    [1m[94m|[0m         [1m[91m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m [1m[91mmutable borrow occurs here[0m
+[1m[94m712[0m [1m[94m|[0m
+[1m[94m713[0m [1m[94m|[0m         let algo_str = match snap.algorithm { Algorithm::Bfs => "BFS", Algorithm::AStar => "A*" };
+    [1m[94m|[0m                              [1m[94m--------------[0m [1m[94mimmutable borrow later used here[0m
+
+[1mSome errors have detailed explanations: E0308, E0422, E0433, E0502.[0m
+[1mFor more information about an error, try `rustc --explain E0308`.[0m
+[1m[91merror[0m: could not compile `mazebench` (bin "mazebench") due to 5 previous errors
+
+##thermite:failed:101
+Compilation failed. Exit code 101.
+
+BUILD FAILED
+
+##thermite:end:FAILED
