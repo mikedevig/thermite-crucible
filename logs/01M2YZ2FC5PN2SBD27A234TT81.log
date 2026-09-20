@@ -123,3 +123,5 @@ $ cargo +stable build --release --target x86_64-unknown-linux-musl
 [1m[92m   Compiling[0m unicode-ident v1.0.26
 [1m[92m   Compiling[0m quote v1.0.47
 [1m[92m   Compiling[0m stable_deref_trait v1.2.1
+[1m[92m   Compiling[0m libc v0.2.189
+[1m[92m   Compiling[0m writeable v0.6.4
