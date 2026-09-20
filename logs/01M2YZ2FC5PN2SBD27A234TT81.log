@@ -144,3 +144,7 @@ $ cargo +stable build --release --target x86_64-unknown-linux-musl
 [1m[92m   Compiling[0m rustix v1.1.5
 [1m[92m   Compiling[0m rustls v0.23.45
 [1m[92m   Compiling[0m linux-raw-sys v0.12.1
+[1m[92m   Compiling[0m percent-encoding v2.3.2
+[1m[92m   Compiling[0m synstructure v0.14.0
+[1m[92m   Compiling[0m bitflags v2.13.2
+[1m[92m   Compiling[0m zerofrom-derive v0.1.8
