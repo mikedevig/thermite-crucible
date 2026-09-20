@@ -151,3 +151,11 @@ $ cargo +stable build --release --target x86_64-unknown-linux-musl
           collect2: error: ld returned 1 exit status
           
 
+[1m[91merror[0m: could not compile `mazebench` (bin "mazebench") due to 1 previous error
+
+##thermite:failed:101
+Compilation failed. Exit code 101.
+
+BUILD FAILED
+
+##thermite:end:FAILED
