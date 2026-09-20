@@ -170,3 +170,9 @@ $ cargo +stable build --release --target x86_64-unknown-linux-musl
 [1m[92m   Compiling[0m webpki-roots v0.26.11
 [1m[92m   Compiling[0m gethostname v1.1.0
 [1m[92m   Compiling[0m base64 v0.22.1
+[1m[92m   Compiling[0m icu_provider v2.3.1
+[1m[92m   Compiling[0m as-raw-xcb-connection v1.0.1
+[1m[92m   Compiling[0m x11rb-protocol v0.13.2
+[1m[92m   Compiling[0m icu_properties v2.3.0
+[1m[92m   Compiling[0m icu_normalizer v2.3.0
+[1m[92m   Compiling[0m rand v0.8.8
