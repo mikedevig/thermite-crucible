@@ -139,3 +139,4 @@ $ cargo +stable build --release --target x86_64-unknown-linux-musl
 [1m[92m   Compiling[0m base64 v0.22.1
 [1m[92m   Compiling[0m as-raw-xcb-connection v1.0.1
 [1m[92m   Compiling[0m rand v0.8.8
+[1m[92m   Compiling[0m x11rb v0.13.2
