@@ -141,3 +141,4 @@ $ cargo +stable build --release --target x86_64-unknown-linux-musl
 [1m[92m   Compiling[0m rand v0.8.8
 [1m[92m   Compiling[0m x11rb v0.13.2
 [1m[92m   Compiling[0m rustls-webpki v0.103.15
+[1m[92m   Compiling[0m ureq v2.12.1
