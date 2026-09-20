@@ -125,3 +125,13 @@ $ cargo +stable build --release --target x86_64-unknown-linux-musl
 [1m[92m   Compiling[0m stable_deref_trait v1.2.1
 [1m[92m   Compiling[0m libc v0.2.189
 [1m[92m   Compiling[0m writeable v0.6.4
+[1m[92m   Compiling[0m cfg-if v1.0.5
+[1m[92m   Compiling[0m shlex v2.0.1
+[1m[92m   Compiling[0m litemap v0.8.3
+[1m[92m   Compiling[0m find-msvc-tools v0.1.13
+[1m[92m   Compiling[0m cc v1.4.7
+[1m[92m   Compiling[0m icu_properties_data v2.3.0
+[1m[92m   Compiling[0m icu_normalizer_data v2.3.0
+[1m[92m   Compiling[0m utf8_iter v1.0.4
+[1m[92m   Compiling[0m zeroize v1.9.0
+[1m[92m   Compiling[0m rustls-pki-types v1.15.1
