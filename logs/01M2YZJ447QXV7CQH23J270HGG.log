@@ -143,3 +143,11 @@ $ cargo +stable build --release --target x86_64-unknown-linux-musl
 [1m[92m   Compiling[0m rustls-webpki v0.103.15
 [1m[92m   Compiling[0m ureq v2.12.1
 [1m[92m   Compiling[0m mazebench v1.2.2 (/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M2YZJ447QXV7CQH23J270HGG/source)
+[1m[91merror[0m[1m: linking with `musl-gcc` failed: exit status: 1[0m
+  [1m[94m|[0m
+  [1m[94m= [0m[1mnote[0m:  "musl-gcc" "-m64" "<sysroot>/lib/rustlib/x86_64-unknown-linux-musl/lib/self-contained/rcrt1.o" "<sysroot>/lib/rustlib/x86_64-unknown-linux-musl/lib/self-contained/crti.o" "<sysroot>/lib/rustlib/x86_64-unknown-linux-musl/lib/self-contained/crtbeginS.o" "<1 object files omitted>" "-Wl,--as-needed" "-Wl,-Bstatic" "/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M2YZJ447QXV7CQH23J270HGG/source/target/x86_64-unknown-linux-musl/release/deps/rustcm43hdM/libring-62cd7a230f12d231.rlib" "-lxcb" "-lunwind" "-lc" "<sysroot>/lib/rustlib/x86_64-unknown-linux-musl/lib/libcompiler_builtins-*.rlib" "-L" "/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M2YZJ447QXV7CQH23J270HGG/source/target/x86_64-unknown-linux-musl/release/deps/rustcm43hdM/raw-dylibs" "-Wl,-Bdynamic" "-Wl,--eh-frame-hdr" "-Wl,-z,noexecstack" "-nostartfiles" "-L" "/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M2YZJ447QXV7CQH23J270HGG/source/target/x86_64-unknown-linux-musl/release/build/ring-0e77c8dcbe0b2413/out" "-L" "<sysroot>/lib/rustlib/x86_64-unknown-linux-musl/lib/self-contained" "-L" "<sysroot>/lib/rustlib/x86_64-unknown-linux-musl/lib" "-o" "/home/runner/work/thermite-crucible/thermite-crucible/jobs/01M2YZJ447QXV7CQH23J270HGG/source/target/x86_64-unknown-linux-musl/release/deps/mazebench-e49413d8947c716d" "-Wl,--gc-sections" "-static-pie" "-Wl,-z,relro,-z,now" "-Wl,-O1" "-Wl,--strip-all" "-nodefaultlibs" "<sysroot>/lib/rustlib/x86_64-unknown-linux-musl/lib/self-contained/crtendS.o" "<sysroot>/lib/rustlib/x86_64-unknown-linux-musl/lib/self-contained/crtn.o"
+  [1m[94m= [0m[1mnote[0m: some arguments are omitted. use `--verbose` to show all linker arguments
+  [1m[94m= [0m[1mnote[0m: /usr/bin/ld: cannot find -lxcb: No such file or directory
+          collect2: error: ld returned 1 exit status
+          
+
