@@ -276,3 +276,10 @@ Caused by:
 
 
 [1m[33mwarning[0m: build failed, waiting for other jobs to finish...
+
+##thermite:failed:101
+Compilation failed. Exit code 101.
+
+BUILD FAILED
+
+##thermite:end:FAILED
