@@ -135,3 +135,12 @@ $ cargo +stable build --release --target x86_64-unknown-linux-musl
 [1m[92m   Compiling[0m utf8_iter v1.0.4
 [1m[92m   Compiling[0m zeroize v1.9.0
 [1m[92m   Compiling[0m rustls-pki-types v1.15.1
+[1m[92m   Compiling[0m ring v0.17.14
+[1m[92m   Compiling[0m getrandom v0.2.17
+[1m[92m   Compiling[0m syn v3.0.6
+[1m[92m   Compiling[0m zerocopy v0.8.57
+[1m[92m   Compiling[0m smallvec v1.16.1
+[1m[92m   Compiling[0m untrusted v0.9.0
+[1m[92m   Compiling[0m rustix v1.1.5
+[1m[92m   Compiling[0m rustls v0.23.45
+[1m[92m   Compiling[0m linux-raw-sys v0.12.1
