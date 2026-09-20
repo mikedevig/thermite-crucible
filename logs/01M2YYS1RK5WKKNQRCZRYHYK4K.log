@@ -51,3 +51,4 @@ info: downloading component rust-std
 ##thermite:compiling
 $ cargo +stable build --release --target x86_64-unknown-linux-musl
 
+[1m[92m    Updating[0m crates.io index
