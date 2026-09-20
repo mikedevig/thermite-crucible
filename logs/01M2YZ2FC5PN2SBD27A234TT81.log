@@ -21,3 +21,22 @@ Setting up musl-dev:amd64 (1.2.4-2) ...
 Setting up musl-tools (1.2.4-2) ...
 Processing triggers for man-db (2.12.0-4build2) ...
 Not building database; man-db/auto-update is not 'true'.
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+
+$ rustup toolchain install stable --profile minimal
+info: syncing channel updates for stable-x86_64-unknown-linux-gnu
+
+  stable-x86_64-unknown-linux-gnu unchanged - rustc 1.98.1 (48a229cea 2026-09-01)
+
+
+$ rustup target add x86_64-unknown-linux-musl --toolchain stable
+info: downloading component rust-std
